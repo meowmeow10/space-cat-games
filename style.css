@@ -2,6 +2,7 @@
   font-family: grtvalue;
   src: url(valorantfont.ttf);
 }
+@media screen and (max-width:1920px) {
 html {
   height: 100%;
   width: 100%;
@@ -97,11 +98,120 @@ button:hover{
     display:inline-block;
     vertical-align:top;
   }
-  {
+  /* {
       box-sizing: border-box;
       font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
       font-size: 16px;
-  }
+  } */
   body {
       background-color: #435165;
+  }
+}
+
+@media screen and (max-width:642px) {
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background: rgb(0, 0, 0);
+    background: rgb(2,0,36);
+    background: linear-gradient(171deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(9,18,127,1) 38%, rgb(98, 190, 209) 100%);
+    
+    background-size: 3000px 3000px;
+    .header {
+      background-color: #F1F1F1;
+      text-align: center;
+      padding: 20px;
+  
+    }
+  }
+  h1 {
+    color: rgb(253, 253, 253);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+  }
+  
+  h2 {
+    color: white;
+    font-family: Verdana;
+  }
+  button {
+    background-color: #db4d00;
+    border: 3px;
+  }
+  p {
+    color: white;
+    font-family: Verdana;
+  }
+  
+  h3 {
+    color: white;
+    font-family: Verdana;
+  }
+  /* link colour*/
+  a {
+    color: white;
+    font-family: Verdana;
+  }
+  button{
+    font-family: sans-serif;
+    font-size: 100%;
+    color: rgb(232, 223, 223);
+    border-radius: 5px;
+  }
+  button:hover{
+    transform: scale(1.3);
+    color: white;
+  }
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #00ffe1;
+      overflow: hidden;
+      border-radius: 8px;
+      width: 95vw;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-evenly;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #0f0f0f;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 11px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: bold;
+      border-radius: 5px;
+    }
+  
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #98e8e5;
+      color: black;
+    }
+  
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    /* UI Bar Logo Placement */
+    .navigation-bar ul {
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      display:inline-block;
+      vertical-align:top;
+    }
+    /* {
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+        font-size: 16px;
+    } */
+    body {
+        background-color: #435165;
+    }
   }
