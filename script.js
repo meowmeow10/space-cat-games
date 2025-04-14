@@ -51,6 +51,9 @@ googleLink.addEventListener('click', e => {
     window.open('https://play.google.com/store/apps/details?id=games.paveldogreat.fluidsimfree');
 });
 
+// Cookies 
+// const cookieBox =
+// document.querySelector()
 // Simulation section
 
 const canvas = document.getElementsByTagName('canvas')[0];
