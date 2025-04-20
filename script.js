@@ -52,9 +52,8 @@ googleLink.addEventListener('click', e => {
 });
 
 // Cookies 
-// const cookieBox =
-// document.querySelector()
-// Simulation section
+const cookieBox = document.querySelector(".frank-oz"),
+    buttons = document.querySelectorAll(".ck_btn")
 
 const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
